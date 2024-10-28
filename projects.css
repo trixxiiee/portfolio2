@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+#projects {
+    display: flex; /* Use flexbox to align items in a row */
+    justify-content: space-between; /* Space items evenly */
+    padding: 20px; /* Section padding */
+}
+
+.project {
+    border: 1px solid #ccc; /* Border around project */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Inner padding */
+    margin: 0 10px; /* Horizontal space between projects */
+    flex: 1; /* Allow projects to grow equally */
+    max-width: 30%; /* Limit width to prevent overflow */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+    background-color: #f9f9f9; /* Background color */
+}
+
+.project h3 {
+    margin: 0; /* Remove margin from project title */
+}
+
+
+

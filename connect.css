@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#contact {
+    text-align: left;  /* Align all text to the right in the contact section */
+}
+
+#contact p{
+    display: flex;            /* Use flexbox for layout */
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center;      /* Vertically center the items */
+    margin: 10px 0;          /* Add space between each paragraph */
+}
+
+
+#contact img {
+    margin-right: 10px;      /* Space between the icon and the text */
+    vertical-align: middle;   /* Ensure icons are vertically aligned */
+    width: 20px;             /* Set a fixed width for all logos for consistent alignment */
+}
+
+.social-container {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 10px; /* Space between rows */
+}
+
+.social-container img {
+    margin-right: 10px; /* Space between logo and text */
+}
